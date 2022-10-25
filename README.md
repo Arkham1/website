@@ -1,2 +1,2 @@
 # website
-First website with github pages
+Personal Website. First website with github pages
