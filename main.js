@@ -15,15 +15,16 @@ function showTime() {
     sec = today.getSeconds();
 
   // Set AM or PM
-  const amPm = hour >= 12 ? 'PM' : 'AM';
+  // const amPm = hour >= 12 ? 'PM' : 'AM';
 
   // 12hr Format
-  hour = hour % 12 || 12;
+  // hour = hour % 12 || 12;
 
   // Output Time
-  time.innerHTML = `${hour}<span>:</span>${addZero(min)}<span>:</span>${addZero(
-    sec
-  )} ${showAmPm ? amPm : ''}`;
+  // time.innerHTML = `${hour}<span>:</span>${addZero(min)}<span>:</span>${addZero(
+  //   sec
+  // )} ${showAmPm ? amPm : ''}`;
+  time.innerHTML = `${addZero(hour)}<span>:</span>${addZero(min)}<span>:</span>${addZero(sec)}`;
 
   setTimeout(showTime, 1000);
 }
