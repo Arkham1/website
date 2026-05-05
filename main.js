@@ -41,15 +41,15 @@ function setBgGreet() {
 
   if (hour < 12) {
     // Morning
-    document.body.style.backgroundImage = "url('https://i.ibb.co/7vDLJFb/morning.jpg')";
+    document.body.style.backgroundImage = "url('https://upload.wikimedia.org/wikipedia/commons/e/e2/Morning_in_Bromo.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original')";
     greeting.textContent = 'Good Morning, ';
   } else if (hour < 18) {
     // Afternoon
-    document.body.style.backgroundImage = "url('https://i.ibb.co/3mThcXc/afternoon.jpg')";
+    document.body.style.backgroundImage = "url('https://upload.wikimedia.org/wikipedia/commons/f/fb/Water_reflection_of_clouds_and_Luang_Prabang_cityscape_from_Wat_Long_Koon_evening_Laos.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original')";
     greeting.textContent = 'Good Afternoon, ';
   } else {
     // Evening
-    document.body.style.backgroundImage = "url('https://i.ibb.co/924T2Wv/night.jpg')";
+    document.body.style.backgroundImage = "url('https://upload.wikimedia.org/wikipedia/commons/7/7e/Night_View-Moon-Star.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original')";
     greeting.textContent = 'Good Evening, ';
     document.body.style.color = 'white';
   }
